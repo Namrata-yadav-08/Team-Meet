@@ -1,17 +1,45 @@
-# Team-Meet
+# Team Meet – CometChat Flutter UI Kit Integration (v5)
 
+**Team Meet** is a sample Flutter application demonstrating integration with the **CometChat Flutter UI Kit v5**.  
+ This app supports real-time messaging, group chats, call logs, and dynamic theming using `CometChatColorPalette`.
+> 🧪 This is a sample/incomplete project built for testing CometChat integration. Some features may be basic or experimental.
 
-A new Flutter project.
+---
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 1:1 and Group Messaging
+- Message Composer with media support
+- User & Group Listings
+- Call Logs Screen
+- Theming with `CometChatColorPalette`
+- Follows system dark/light mode automatically
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📁 Project Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+lib/
+├── main.dart                   # App entry & CometChat init
+├── app_theme.dart             # Theming config
+├── screens/
+│   ├── TabsScreen.dart        # Tabbed navigation
+│   └── messages_screen.dart   # Chat screen
+├── services/
+│   └── cometchat_config.dart  # Secret keys (ignored in Git)
+```
+
+---
+
+## 📌 Notes
+
+- Uses CometChat’s official Flutter UI Kit: [docs](https://www.cometchat.com/docs/ui-kit/flutter)
+- Public repo omits screenshots and submission details for privacy
+- Clean structure and safe for open sharing
+
+---
+
+## 👤 Author
+
+Namrata
